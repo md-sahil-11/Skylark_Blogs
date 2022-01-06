@@ -27,7 +27,7 @@ SECRET_KEY = 'apuvicmef^(!j8gx&clu0u(!8m0r^etok^l0)kc!---#(i5=dt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sahil11.pythonanywhere.com']
 
 
 # Application definition
@@ -170,3 +170,5 @@ SIMPLE_JWT = {
 
 MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_URL = '/media/'
+
+STATIC_ROOT = Path(BASE_DIR / 'static')
